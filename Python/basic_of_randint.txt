@@ -1,0 +1,8 @@
+import random
+name_string = input("Enter your name ")
+
+name = name_string.split(", ")
+new_items = len(name)
+random_choice = random.randint(0, new_items - 1)
+who_will_pay_the_bill = name[random_choice]
+print(who_will_pay_the_bill + " will buy the item ")

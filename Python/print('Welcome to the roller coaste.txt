@@ -1,0 +1,14 @@
+print('Welcome to the roller coaster')
+name = input('Enter your name? ')
+print("Hi " + name + " Welcome to the ride ")
+height = float(input("Enter your height ? "))
+if height >= 120:
+    print("You can enjoy your ride ")
+    age = int(input("Enter your age ? "))
+    if age <= 14:
+        print("Buy 70 $ Ticket ")
+    else:
+        print("Buy 100 $ ticket")
+
+else:
+    print("Sorry, you have to grow taller or you need to meet the required age ")

@@ -1,0 +1,8 @@
+student_heights = input("Enter the height ").split()
+for n in range(len(0, [student_heights ])):
+    student_heights[n] = int(student_heights[n])
+print(student_heights)
+total_heights = sum(student_heights)
+number_of_heights = len(student_heights)
+average_of_all = total_heights / number_of_heights
+print(average_of_all)

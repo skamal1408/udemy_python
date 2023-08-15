@@ -1,0 +1,24 @@
+print("Welcome to the Vignesh Pizzas ")
+name = input("Enter you name? ")
+print("Hi " + name + " Please enter the following details correctly ")
+mobile_number = int(input("Enter your Mobile number "))
+size = input("Which size do you want to prefer ? S, M and L ")
+add_pepperoni = input('Do you want pepperoni ? Y or N ')
+extra_cheese = input("Do you want extra cheese? Y or N ")
+bill = 0
+if size == 'S':
+    bill += 2
+elif size == "M":
+    bill += 4
+else:
+    bill += 10
+if add_pepperoni == "Y":
+    if size == "S":
+        bill += 18
+    else:
+        bill += 20
+if extra_cheese == "Y":
+    bill += 20
+print(f"Your bill is: $ {bill}")
+
+
